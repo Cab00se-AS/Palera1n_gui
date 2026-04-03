@@ -1,4 +1,4 @@
-# Hardware Setup — Waveshare 1.3inch LCD HAT
+# Hardware Setup: Waveshare 1.3inch LCD HAT
 
 ## Bill of Materials
 
@@ -44,7 +44,7 @@ The Waveshare 1.3inch LCD HAT plugs directly onto the 40-pin GPIO header.
 | KEY2 | GPIO 20 | Pin 38 | Cancel operation |
 | KEY3 | GPIO 16 | Pin 36 | Back / Exit |
 
-All buttons are **active LOW** (pulled up internally) — a press connects the pin to GND.
+All buttons are **active LOW** (pulled up internally). A press connects the pin to GND.
 
 ## USB OTG Host Mode
 
@@ -62,7 +62,7 @@ To use it as a **USB host** (to plug in iPhone):
 
 ## OS Image
 
-Use **Raspberry Pi OS Lite (64-bit)** — no desktop needed.
+Use **Raspberry Pi OS Lite (64-bit)**. No desktop needed.
 
 Download: https://www.raspberrypi.com/software/operating-systems/
 

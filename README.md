@@ -1,6 +1,6 @@
 # palera1n-gui
 
-A standalone GUI for [palera1n](https://github.com/palera1n/palera1n) running on a **Raspberry Pi Zero 2W** with the **Waveshare 1.3inch LCD HAT** (240×240 IPS, joystick + 3 buttons). No keyboard, monitor, or SSH needed — everything is controlled from the HAT.
+A standalone GUI for [palera1n](https://github.com/palera1n/palera1n) running on a **Raspberry Pi Zero 2W** with the **Waveshare 1.3inch LCD HAT** (240×240 IPS, joystick + 3 buttons). No keyboard, monitor, or SSH needed. Everything is controlled from the HAT.
 
 ```
 ┌─────────────────────────┐
@@ -96,15 +96,15 @@ The GUI will auto-start on boot and appear on the LCD HAT.
 ## Features
 
 - **Menu-driven UI** rendered at 15 fps on the 240×240 IPS display
-- **Device detection** — polls USB and shows connection status
-- **DFU mode guide** — step-by-step on-screen instructions
-- **Live log streaming** — palera1n output scrolls on screen in real time
-- **Progress bar** — heuristic progress tracking from palera1n log output
-- **Options screen** — toggle rootless/rootful, safe mode, verbose, tweaks
-- **System info** — IP, CPU temp, RAM, disk, uptime, palera1n version
-- **Power menu** — reboot / shutdown from the device
-- **Auto-start via systemd** — boots straight into the GUI
-- **Mock mode** — runs on a desktop (keyboard-driven) for development
+- **Device detection**: polls USB and shows connection status
+- **DFU mode guide**: step-by-step on-screen instructions
+- **Live log streaming**: palera1n output scrolls on screen in real time
+- **Progress bar**: heuristic progress tracking from palera1n log output
+- **Options screen**: toggle rootless/rootful, safe mode, verbose, tweaks
+- **System info**: IP, CPU temp, RAM, disk, uptime, palera1n version
+- **Power menu**: reboot / shutdown from the device
+- **Auto-start via systemd**: boots straight into the GUI
+- **Mock mode**: runs on a desktop (keyboard-driven) for development
 
 ---
 
@@ -154,7 +154,7 @@ palera1n uses the [checkm8](https://checkm8.info/) bootrom exploit (A8–A11):
 
 ## Development / Testing on Desktop
 
-Run without a Pi — the app falls back to mock display (frames saved as PNG) and keyboard input:
+Run without a Pi. The app falls back to mock display (frames saved as PNG) and keyboard input:
 
 ```bash
 pip3 install Pillow
@@ -179,7 +179,7 @@ tail -f /var/log/palera1n-gui.log
 
 ## License
 
-MIT — see [LICENSE](LICENSE)
+MIT. See [LICENSE](LICENSE)
 
 ---
 

@@ -37,7 +37,7 @@ chmod +x bin/palera1n
 - The binary **must** be at `bin/palera1n` relative to the project root, or at `/usr/local/bin/palera1n`
 - The setup script will also search `~/palera1n` and `/usr/bin/palera1n`
 - Make sure you're downloading the **ARM64** build, not x86_64
-- palera1n must be run as **root** — the systemd service handles this automatically
+- palera1n must be run as **root**. The systemd service handles this automatically
 
 ## Supported Devices
 
