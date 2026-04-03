@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+
+# Logs
+*.log
+/var/log/
+
+# palera1n binary (do not commit — download separately)
+bin/palera1n
+bin/*.bin
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Assets — exclude large font files unless you want to commit yours
+# assets/*.ttf
+
+# Temp frames from mock display
+/tmp/palera1n_frame.png

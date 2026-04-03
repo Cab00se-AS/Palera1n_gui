@@ -1,0 +1,7 @@
+Place the palera1n ARM64 Linux binary here, named exactly:
+
+    palera1n
+
+Download from: https://github.com/palera1n/palera1n/releases/latest
+
+See docs/INSTALL_PALERA1N.md for full instructions.

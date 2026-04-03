@@ -1,0 +1,11 @@
+# palera1n-gui Python dependencies
+# Install with: pip3 install -r requirements.txt --break-system-packages
+
+# Core image rendering
+Pillow>=10.0.0
+
+# GPIO (Raspberry Pi only — skip on dev machines)
+# RPi.GPIO>=0.7.1
+
+# SPI interface (Raspberry Pi only)
+# spidev>=3.6

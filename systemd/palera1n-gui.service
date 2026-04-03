@@ -1,0 +1,21 @@
+[Unit]
+Description=palera1n GUI — Waveshare LCD HAT interface
+After=multi-user.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/palera1n-gui
+ExecStart=/usr/bin/python3 /opt/palera1n-gui/src/main.py
+Restart=on-failure
+RestartSec=5s
+StandardOutput=journal
+StandardError=journal
+Environment=PYTHONUNBUFFERED=1
+
+# Allow GPIO and SPI access
+SupplementaryGroups=gpio spi
+
+[Install]
+WantedBy=multi-user.target
