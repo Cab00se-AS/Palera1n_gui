@@ -2,6 +2,8 @@
 
 A standalone GUI for [palera1n](https://github.com/palera1n/palera1n) running on a **Raspberry Pi Zero 2W** with the **Waveshare 1.3inch LCD HAT** (240×240 IPS, joystick + 3 buttons). No keyboard, monitor, or SSH needed. Everything is controlled from the HAT.
 
+![palera1n-gui preview](previews/preview.gif)
+
 ```
 ┌─────────────────────────┐
 │  palera1n-gui  Main Menu│
